@@ -21,6 +21,7 @@ public class test_4948_2 {
 			int n = Integer.parseInt(br.readLine());
 			if(n==0) break;
 			
+			// 2n 까지의 누적 갯수 - n 까지의 누적 갯수  
 			sb.append(cnt[2*n]-cnt[n]).append('\n');
 		}
 		System.out.print(sb);
@@ -35,6 +36,8 @@ public class test_4948_2 {
 			}
 		}
 	}
+	
+	//인덱스값에는 누적 갯수 쌓이도록   
 	public static void get_count() {
 		int count = 0;
 		for(int i=2;i<arr.length;i++) {
