@@ -1,1 +1,0 @@
-package baekjoon_func;
